@@ -6,11 +6,11 @@ public class Main {
         System.out.print("enter any number for triangle:");
         int num = input.nextInt();
 
-        for (int a = 1; a <= num; a++) {
-            for (int b = 0; b <= a; b++) {
+        for (int row = 1; row <= num; row++) {
+            for (int space = 0; space <= row; space++) {
                 System.out.print(" ");
             }
-            for (int c = 2*(num-a)-1; c>=1 ; c--){
+            for (int star = 2*(num-row)-1; star>=1 ; star--){
                 System.out.print("*");
             }
 
